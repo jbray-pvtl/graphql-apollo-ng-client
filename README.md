@@ -18,6 +18,19 @@ Add the Apollo dependencies.
 npm install apollo-angular apollo-angular-link-http apollo-client apollo-cache-inmemory graphql-tag graphql --save
 ```
 
+Modify the `angular-cli.json` to use the new styling dependencies.
+
+```
+      "styles": [
+        "../node_modules/foundation-sites/dist/css/foundation.css",
+        "styles.css"
+      ],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.min.js",
+        "../node_modules/foundation-sites/dist/js/foundation.js"
+      ]
+```
+
 ### Other Dependencies
 
 Foundation
